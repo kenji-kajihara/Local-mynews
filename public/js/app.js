@@ -16819,7 +16819,7 @@ return jQuery;
   var undefined;
 
   /** Used as the semantic version number. */
-  var VERSION = '4.17.13';
+  var VERSION = '4.17.14';
 
   /** Used as the size to enable large array optimizations. */
   var LARGE_ARRAY_SIZE = 200;
@@ -49370,6 +49370,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/front.scss":
+/*!***********************************!*\
+  !*** ./resources/sass/front.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/profile.scss":
 /*!*************************************!*\
   !*** ./resources/sass/profile.scss ***!
@@ -49382,16 +49393,17 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 0:
-/*!***********************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/admin.scss ./resources/sass/profile.scss ***!
-  \***********************************************************************************************************************/
+/*!***************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/admin.scss ./resources/sass/profile.scss ./resources/sass/front.scss ***!
+  \***************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /mnt/c/php/techboost/mynews/resources/js/app.js */"./resources/js/app.js");
 __webpack_require__(/*! /mnt/c/php/techboost/mynews/resources/sass/app.scss */"./resources/sass/app.scss");
 __webpack_require__(/*! /mnt/c/php/techboost/mynews/resources/sass/admin.scss */"./resources/sass/admin.scss");
-module.exports = __webpack_require__(/*! /mnt/c/php/techboost/mynews/resources/sass/profile.scss */"./resources/sass/profile.scss");
+__webpack_require__(/*! /mnt/c/php/techboost/mynews/resources/sass/profile.scss */"./resources/sass/profile.scss");
+module.exports = __webpack_require__(/*! /mnt/c/php/techboost/mynews/resources/sass/front.scss */"./resources/sass/front.scss");
 
 
 /***/ })
